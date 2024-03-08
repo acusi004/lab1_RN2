@@ -9,6 +9,7 @@ import { Header } from "react-native/Libraries/NewAppScreen";
 import { CustomView } from "./componen/CustomView.tsx";
 import { CustomEditText } from "./componen/CustomEditText.tsx";
 import { ViewCustom } from "./componen/ViewCustom.tsx";
+import Bai2 from "./componen/Bai2.tsx";
 
 
 
@@ -28,7 +29,7 @@ function App(): React.JSX.Element {
        <CustomInput title={''}  iconLeft={leftIcon} />
      </View>
      <View>
-      <CustomEditText title={'Title'}/>
+      <Bai2/>
      </View>
 
       <View style={{padding:15}}>
